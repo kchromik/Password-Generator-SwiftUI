@@ -11,6 +11,8 @@
 		74E2B04B27E33CB100077AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2B04A27E33CB100077AA9 /* ContentView.swift */; };
 		74E2B04D27E33CB200077AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E2B04C27E33CB200077AA9 /* Assets.xcassets */; };
 		74E2B05027E33CB200077AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E2B04F27E33CB200077AA9 /* Preview Assets.xcassets */; };
+		74E2B05727E7802F00077AA9 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2B05627E7802F00077AA9 /* CheckBoxView.swift */; };
+		74E2B05927E884BE00077AA9 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2B05827E884BE00077AA9 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		74E2B04A27E33CB100077AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74E2B04C27E33CB200077AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E2B04F27E33CB200077AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74E2B05627E7802F00077AA9 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		74E2B05827E884BE00077AA9 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				74E2B04A27E33CB100077AA9 /* ContentView.swift */,
 				74E2B04C27E33CB200077AA9 /* Assets.xcassets */,
 				74E2B04E27E33CB200077AA9 /* Preview Content */,
+				74E2B05627E7802F00077AA9 /* CheckBoxView.swift */,
+				74E2B05827E884BE00077AA9 /* PasswordGenerator.swift */,
 			);
 			path = "Password Generator";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E2B05927E884BE00077AA9 /* PasswordGenerator.swift in Sources */,
 				74E2B04B27E33CB100077AA9 /* ContentView.swift in Sources */,
+				74E2B05727E7802F00077AA9 /* CheckBoxView.swift in Sources */,
 				74E2B04927E33CB100077AA9 /* Password_GeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
